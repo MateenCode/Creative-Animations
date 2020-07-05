@@ -14,3 +14,24 @@ button:hover {
   color: black;
   border-radius: 50%;
 }
+
+#ProgressBar {
+  margin-top: 30px;
+  height: 30px;
+  width: 400px;
+}
+
+#ProgressBarPercentage {
+  height: 30px;
+  background-color: rgb(255, 0, 0);
+  animation: loadProgressBar 2s linear;
+}
+
+@keyframes loadProgressBar {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
